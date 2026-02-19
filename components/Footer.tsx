@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-start space-x-3">
               <div className="p-1 bg-white rounded shadow-sm shrink-0 w-12 h-12 flex items-center justify-center overflow-hidden">
-                <img src="/logo.png" alt="IAP Logo" className="w-full h-full object-contain" />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} alt="IAP Logo" className="w-full h-full object-contain" />
               </div>
               <div>
                  <h2 className="font-serif font-bold text-lg leading-tight uppercase">
