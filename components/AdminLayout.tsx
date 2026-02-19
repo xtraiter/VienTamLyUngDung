@@ -48,7 +48,7 @@ const AdminLayout: React.FC = () => {
         <div className="h-20 flex items-center px-6 border-b border-gray-100 dark:border-gray-800">
           <Link to="/" className="flex items-center gap-3 group w-full">
              <div className="w-10 h-10 flex items-center justify-center transition-all duration-300">
-                <img src="/logo.png" alt="IAP Admin" className="w-full h-full object-contain" />
+                <img src="logo.png" alt="IAP Admin" className="w-full h-full object-contain" />
              </div>
              <div>
                 <h1 className="font-serif font-bold text-lg text-gray-900 dark:text-white leading-none">IAP Admin</h1>
