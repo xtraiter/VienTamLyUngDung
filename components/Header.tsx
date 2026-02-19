@@ -112,7 +112,7 @@ const Header: React.FC = () => {
             {/* LOGO */}
             <Link to="/" className="flex items-center gap-3 group shrink-0">
                <div className="w-10 h-10 md:w-12 md:h-12 flex items-center justify-center transition-all duration-300">
-                  <img src="logo.png" alt="IAP Logo" className="w-full h-full object-contain group-hover:scale-110 transition-transform" />
+                  <img src="/logo.png" alt="IAP Logo" className="w-full h-full object-contain group-hover:scale-110 transition-transform" />
                </div>
                <div className="flex flex-col">
                   <span className="font-serif font-bold text-lg md:text-xl leading-none text-gray-900 dark:text-white uppercase tracking-tight">
